@@ -9,11 +9,11 @@ using System.Text;
 using System.Windows.Forms;
 using System.IO;
 using System.Diagnostics;
-using AutoClicker.Properties;
+using inactive.Properties;
 
-namespace AutoClicker
+namespace inactive
 {
-    public partial class AutoClicker : Form
+    public partial class inactive : Form
     {
         int currentCoord = 0;
         bool reverse = false;
@@ -115,7 +115,7 @@ namespace AutoClicker
         System.Timers.Timer TClick;
         Settings S = Settings.Default;
 
-        public AutoClicker()
+        public inactive()
         {
             InitializeComponent();
             
@@ -530,12 +530,12 @@ namespace AutoClicker
             Settings.Default.Save();
         }
 
-        private void AutoClicker_LocationChanged(object sender, EventArgs e)
+        private void inactive_LocationChanged(object sender, EventArgs e)
         {
             Settings.Default.WindowPoint = Location;
         }
 
-        private void AutoClicker_FormClosing(object sender, FormClosingEventArgs e)
+        private void inactive_FormClosing(object sender, FormClosingEventArgs e)
         {
             Settings.Default.Save();
         }

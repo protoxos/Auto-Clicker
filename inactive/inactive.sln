@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoClicker", "AutoClicker\AutoClicker.csproj", "{5FD51138-607B-48FF-A219-05D86BDD15C9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inactive", "inactive\inactive.csproj", "{5FD51138-607B-48FF-A219-05D86BDD15C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoClickerTests", "AutoClickerTests\AutoClickerTests.csproj", "{B88B570E-19CB-4C10-A957-F8964E463AA5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inactiveTests", "inactiveTests\inactiveTests.csproj", "{B88B570E-19CB-4C10-A957-F8964E463AA5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

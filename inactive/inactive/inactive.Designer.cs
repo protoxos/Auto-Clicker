@@ -1,6 +1,6 @@
-﻿namespace AutoClicker
+﻿namespace inactive
 {
-    partial class AutoClicker
+    partial class inactive
     {
         /// <summary>
         /// Required designer variable.
@@ -70,7 +70,7 @@
             this.txtTickInterval.Name = "txtTickInterval";
             this.txtTickInterval.Size = new System.Drawing.Size(66, 20);
             this.txtTickInterval.TabIndex = 15;
-            this.txtTickInterval.Text = "30";
+            this.txtTickInterval.Text = "3000";
             this.txtTickInterval.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtTickInterval.TextChanged += new System.EventHandler(this.TxtTickIntervalChange);
             // 
@@ -264,7 +264,7 @@
             this.chkAlwaysOnTop.UseVisualStyleBackColor = true;
             this.chkAlwaysOnTop.CheckedChanged += new System.EventHandler(this.chkAlwaysOnTop_CheckedChanged);
             // 
-            // AutoClicker
+            // inactive
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -283,12 +283,11 @@
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label4);
             this.MaximizeBox = false;
-            this.MinimizeBox = true;
-            this.Name = "AutoClicker";
+            this.Name = "inactive";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Autorim";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.AutoClicker_FormClosing);
-            this.LocationChanged += new System.EventHandler(this.AutoClicker_LocationChanged);
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.inactive_FormClosing);
+            this.LocationChanged += new System.EventHandler(this.inactive_LocationChanged);
             this.listMenu.ResumeLayout(false);
             this.listMenu.PerformLayout();
             this.ResumeLayout(false);

@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace AutoClickerTests
+namespace inactiveTests
 {
     [TestClass]
     public class UnitTest1

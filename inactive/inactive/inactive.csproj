@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{5FD51138-607B-48FF-A219-05D86BDD15C9}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>AutoClicker</RootNamespace>
-    <AssemblyName>AutoClicker</AssemblyName>
+    <RootNamespace>inactive</RootNamespace>
+    <AssemblyName>inactive</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,17 +45,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AutoClicker.cs">
+    <Compile Include="inactive.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AutoClicker.Designer.cs">
-      <DependentUpon>AutoClicker.cs</DependentUpon>
+    <Compile Include="inactive.Designer.cs">
+      <DependentUpon>inactive.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Settings.cs" />
-    <EmbeddedResource Include="AutoClicker.resx">
-      <DependentUpon>AutoClicker.cs</DependentUpon>
+    <EmbeddedResource Include="inactive.resx">
+      <DependentUpon>inactive.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

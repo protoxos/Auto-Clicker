@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace AutoClicker
+namespace inactive
 {
     static class Program
     {
@@ -16,9 +16,9 @@ namespace AutoClicker
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            AutoClicker autoclicker = new AutoClicker();
-            autoclicker.Text = "Auto Clicker";
-            Application.Run(autoclicker);
+            inactive inactive = new inactive();
+            inactive.Text = "Herramientas de desarrollador";
+            Application.Run(inactive);
         }
     }
 }
